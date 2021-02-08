@@ -610,4 +610,14 @@ body {
     .footer-page-maker {
         margin: 0;
     }
+    .offer-link{
+        font-size: 24px;
+    }
+    .offer-phone{
+        font-size: 24px;
+    }
+    .section-title-offer{
+        font-size: 24px;
+    }
+
 }
