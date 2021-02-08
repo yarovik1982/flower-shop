@@ -1,0 +1,594 @@
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('../fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('../fonts/GothamPro.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+* {
+    /* color: inherit; */
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292929;
+    margin: 0;
+    color: #fff;
+    font-family: "Gotham Pro Light", sans-serif;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.header-description {
+    font-family: "Gjtham Pro Light", sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+
+.text-color-red {
+    font-family: "Gotham Pro Medium", sans-serif;
+    color: #ff3469;
+    font-weight: 500;
+}
+
+.header-phone {
+    font-family: "Gotham Pro Medium";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+.header-info {
+    font-family: "Gotham Pro Light";
+    font-size: 12px;
+    margin-top: 7px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: right;
+}
+
+.callback {
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ff3469;
+    text-align: right;
+    display: block;
+    margin-top: 16px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 77px;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.hero-title {
+    font-size: 34px;
+    font-family: "Gotham Pro Medium";
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+    max-width: 652px;
+}
+
+.hero-description {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Gotham Pro Light';
+    line-height: 1.4;
+    font-weight: 300;
+    opacity: 0.7;
+    margin: auto;
+    max-width: 590px;
+}
+
+.opacity {
+    opacity: 1;
+    font-weight: 900;
+}
+
+.flowers-slider {
+    width: 100%;
+    margin-bottom: 87px;
+    margin-top: 83px;
+    text-align: center;
+}
+
+:root {
+    --swiper-navigation-size: 18px;
+}
+
+:root {
+    --swiper-theme-color: #fff;
+}
+
+.hero-cta {
+    font-size: 19px;
+    font-family: "Gotham Pro Light";
+    font-weight: 300;
+    margin-bottom: 36px;
+    display: block;
+}
+
+.button {
+    text-transform: uppercase;
+    font-family: "Gotham Pro Medium";
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    text-decoration: none;
+    margin-top: 36px;
+    display: inline-block;
+}
+
+.reviews-slider {
+    margin-top: 98px;
+}
+
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.review-slide {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.review-image {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: "Gotham Pro Light";
+    position: relative;
+    margin-right: 52px;
+}
+
+.review-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.review-image>* {
+    position: relative;
+}
+
+.review-image-1 {
+    background: url("../images/reviews/review-image-1.jpg");
+}
+
+.review-text {
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.review-link {
+    color: #f24841;
+    margin-top: 19px;
+    display: block;
+}
+
+.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.advantages-wrapper {
+    min-height: 85px;
+    padding-bottom: 30px;
+}
+
+.advantages-image {
+    display: inline-block;
+    min-width: 80px;
+    min-height: 100%;
+}
+
+.advantages-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.4;
+    max-width: 270px;
+    margin: auto;
+    line-height: 25px;
+}
+
+.goods {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.text-color-red {
+    color: #ff1844;
+}
+
+.section-description {
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.card {
+    text-align: center;
+    border: 3px solid #fff;
+    padding: 33px 35px 30px 35px;
+    margin-bottom: 25px;
+}
+.card-image{
+    display: block;
+    width: 88px;
+    height: 88px;
+    margin: auto;
+}
+.card-title {
+    margin-top: 23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card-button {
+    font-size: 12px;
+    padding: 0;
+    padding: 13px 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.card-label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+.color-label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.color-input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -9;
+}
+
+.counter-input {
+    width: 40px;
+    height: 40px;
+    background: #292929;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    padding: 13px 0;
+    font-style: 16px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+
+.counter-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    background-color: #292929;
+    border: none;
+    outline: none;
+}
+
+.color-label.white {
+    background: #fff;
+}
+
+.color-label.beige {
+    background-color: #f7b496;
+}
+
+.color-label.pink {
+    background-color: #ed366e;
+}
+
+.color-label.red {
+    background-color: #ff0000;
+}
+
+.color-label.blue {
+    background-color: #12129d
+}
+
+.more {
+    font-size: 14px;
+    color: #f24841;
+    display: block;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.offer {
+    padding: 100px 0;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.offer-link {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 65px;
+    display: block;
+    color: #fff;
+    margin-top: 29px;
+}
+
+.offer-label {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.offer-phone {
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+
+.footer-row{
+    display: flex;
+}
+
+.footer-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 33px;
+}
+
+.footer-menu-link {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #fff#000;
+}
+
+.footer-menu-item {
+    margin-right: 30px;
+}
+
+.social {
+    font-size: 16px;
+}
+
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+.footer-phone {
+    color: #fff;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background: #fff;
+    padding-top: 50px;
+}
+
+
+.footer-bottom-row{
+    display: flex;
+}
+.footer-bottom-description {
+    color: #292929;
+}
+
+
+.footer-page-maker{
+    align-self: center;
+    display: flex;
+    margin-left: 65px;
+}
+.footer-bottom-info {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #101010;
+}
+
+.link-info {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #101010;
+}
+.modal{
+    display: none;
+    background:#afafce
+}
+
+.modal-text{
+    color: #000;
+    font-size: 18px;
+}
+
+.modal-input{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+}
+
+.modal-button{
+    font-size: 18px;
+    width: 100%;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+@media(max-width:1200px){
+    .footer-page-maker{
+        margin-left: 20px;
+    }
+}
+@media(max-width:992px){
+    .colors{
+        max-width:200px;
+        margin: auto;
+    }
+}
+@media(max-width:768px){
+    .header{
+        text-align: center;
+    }
+    .header-phone{
+        text-align: center;
+    }
+    .header-info{
+        text-align: center;
+    }
+    .callback{
+        text-align: center;
+    }
+    .hero{
+        padding-top: 50px;
+        line-height: 1.6;
+    }
+    .hero-title{
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .button{
+        padding: 20px 40px;
+    }
+    .card-label{
+        margin: 15px auto;
+        display: block;
+    }
+    .colors{
+        max-width: 200px;
+        margin: auto;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+    .footer-bottom-info{
+        display: block;
+        text-align: center;
+    }
+    .link-info{
+        display: block;
+        text-align: center;
+    }
+    .footer-bottom-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-page-maker{
+        margin: 0;
+    }
+}
+
+@media(max-width:576px){
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-column-right{
+        text-align: left;
+        margin-top: 30px;
+    }
+    .footer-page-maker{
+        margin: 0;
+    }
+}
