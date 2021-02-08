@@ -12,14 +12,13 @@
     font-style: normal;
 }
 
-
-
 @font-face {
     font-family: 'Gotham Pro Medium';
     src: url('../fonts/GothamPro.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
+
 * {
     /* color: inherit; */
     margin: 0;
@@ -205,6 +204,13 @@ body {
     background: url("../images/reviews/review-image-1.jpg");
 }
 
+.review-image-2 {
+    background-image: url("../images/bouquet-2-250.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .review-text {
     font-size: 18px;
     line-height: 1.4em;
@@ -270,12 +276,14 @@ body {
     padding: 33px 35px 30px 35px;
     margin-bottom: 25px;
 }
-.card-image{
+
+.card-image {
     display: block;
     width: 88px;
     height: 88px;
     margin: auto;
 }
+
 .card-title {
     margin-top: 23px;
     margin-bottom: 20px;
@@ -397,7 +405,7 @@ body {
     color: #ffffff;
 }
 
-.footer-row{
+.footer-row {
     display: flex;
 }
 
@@ -426,11 +434,11 @@ body {
     font-size: 16px;
 }
 
-
-.footer-row{
+.footer-row {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-label {
     display: block;
     font-size: 14px;
@@ -455,20 +463,20 @@ body {
     padding-top: 50px;
 }
 
-
-.footer-bottom-row{
+.footer-bottom-row {
     display: flex;
 }
+
 .footer-bottom-description {
     color: #292929;
 }
 
-
-.footer-page-maker{
+.footer-page-maker {
     align-self: center;
     display: flex;
     margin-left: 65px;
 }
+
 .footer-bottom-info {
     font-size: 12px;
     line-height: 1.2;
@@ -484,17 +492,18 @@ body {
     letter-spacing: 0.01em;
     color: #101010;
 }
-.modal{
+
+.modal {
     display: none;
-    background:#afafce
+    background: #afafce
 }
 
-.modal-text{
+.modal-text {
     color: #000;
     font-size: 18px;
 }
 
-.modal-input{
+.modal-input {
     display: block;
     padding: 10px;
     font-size: 18px;
@@ -503,7 +512,7 @@ body {
     outline: none;
 }
 
-.modal-button{
+.modal-button {
     font-size: 18px;
     width: 100%;
     background-color: #ff2e55;
@@ -514,81 +523,91 @@ body {
     padding: 10px;
 }
 
-
-@media(max-width:1200px){
-    .footer-page-maker{
+@media(max-width:1200px) {
+    .footer-page-maker {
         margin-left: 20px;
     }
 }
-@media(max-width:992px){
-    .colors{
-        max-width:200px;
+
+@media(max-width:992px) {
+    .colors {
+        max-width: 200px;
         margin: auto;
     }
 }
-@media(max-width:768px){
-    .header{
+
+@media(max-width:768px) {
+    .header {
         text-align: center;
     }
-    .header-phone{
+    .header-phone {
         text-align: center;
     }
-    .header-info{
+    .header-info {
         text-align: center;
     }
-    .callback{
+    .callback {
         text-align: center;
     }
-    .hero{
+    .hero {
         padding-top: 50px;
         line-height: 1.6;
     }
-    .hero-title{
+    .hero-title {
         font-size: 24px;
         margin-bottom: 20px;
         line-height: 1.6;
     }
-    .button{
+    .review-slide {
+        text-align: center;
+    }
+    .review-image {
+        margin: auto;
+    }
+    .review-text {
+        margin-top: 30px;
+    }
+    .button {
         padding: 20px 40px;
     }
-    .card-label{
+    .card-label {
         margin: 15px auto;
         display: block;
     }
-    .colors{
+    .colors {
         max-width: 200px;
         margin: auto;
     }
-    .footer-bottom{
+    .footer-bottom {
         text-align: center;
     }
-    .footer-bottom-info{
+    .footer-bottom-info {
         display: block;
         text-align: center;
     }
-    .link-info{
+    .link-info {
         display: block;
         text-align: center;
     }
-    .footer-bottom-row{
+    .footer-bottom-row {
         display: flex;
         flex-direction: column;
     }
-    .footer-page-maker{
+    .footer-page-maker {
         margin: 0;
     }
 }
 
-@media(max-width:576px){
-    .footer-row{
+@media(max-width:576px) {
+    .footer-row {
         display: flex;
         flex-direction: column;
     }
-    .footer-column-right{
+    .footer-column-right {
         text-align: left;
         margin-top: 30px;
     }
-    .footer-page-maker{
+    .footer-page-maker {
         margin: 0;
     }
 }

@@ -37,47 +37,51 @@ $(document).ready(function(){
       prevEl: '.swiper-button-prev',
     },
   });
-  // $('#review-1').on('click', function() {
-
-  //   $.fancybox.open([
-  //     {
-  //       // src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
-  //       src : 'images/bouquet-1.jpg',
-  //       opts : {
-  //         caption : 'First caption',
-  //         thumb   : 'images/bouquet-1-250.jpg'
-  //       }
-  //     },
-  //     {
-  //       src  : 'images/bouquet-2.jpg',
-  //       opts : {
-  //         caption : 'Second caption',
-  //         thumb   : 'images/bouquet-2-250.jpg'
-  //       }
-  //     }
-  //   ], {
-  //     loop : true,
-  //     thumbs : {
-  //       autoStart : true
-  //     }
-  //   });
-  
-  // });
-  $("#review-1").on('click', function() {
+  $('#bouquet-1').on('click', function() {
 
     $.fancybox.open([
       {
-        src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+  //       // src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+        src : 'images/bouquet-1.jpg',
         opts : {
           caption : 'First caption',
-          thumb   : 'https://source.unsplash.com/IvfoDk30JnI/240x160'
+          thumb   : 'images/bouquet-1-250.jpg'
         }
       },
       {
-        src  : 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+        src  : 'images/bouquet-2.jpg',
         opts : {
           caption : 'Second caption',
-          thumb   : 'https://source.unsplash.com/0JYgd2QuMfw/240x160'
+          thumb   : 'images/bouquet-2-250.jpg'
+        }
+      }
+    ], {
+      loop : true,
+      thumbs : {
+        autoStart : true
+      }
+    });
+  
+  });
+  $("#bouquets").on('click', function() {
+
+    $.fancybox.open([
+      {
+        // src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+        src : 'images/bouquet-1.jpg',
+        opts : {
+          caption : 'First caption',
+          thumb : 'images/bouquet-1-250.jpg'
+          //thumb   : 'https://source.unsplash.com/IvfoDk30JnI/240x160'
+        }
+      },
+      {
+        //src  : 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+        src : 'images/bouquet-2.jpg',
+        opts : {
+          caption : 'Second caption',
+          thumb : 'images/bouquet-2-250.jpg'
+          //thumb   : 'https://source.unsplash.com/0JYgd2QuMfw/240x160'
         }
       }
     ], {
